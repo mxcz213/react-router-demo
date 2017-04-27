@@ -1,0 +1,116 @@
+html,body{
+	border:0;
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    font-size: 12px;
+    color: #6F6F6F;
+    background: #fff;
+}
+.ml-20{
+	margin-left: 20px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+
+a{
+	text-decoration:none;
+	color: #fff;
+}
+.wapper{
+	font-size: 14px;
+    color: #fff;
+}
+.header{
+	padding: 0 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.title{
+    display: inline;
+}
+.login{
+	display: inline-block;
+    float: right;
+    color:#333;
+}
+.login a{
+	color:#333;
+}
+.main{
+	position: relative;
+}
+.leftMenu{
+	width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    background-color: #404040;
+}
+.leftMenu a{
+	display: block;
+    text-align: center; 
+}
+.leftMenu .ant-menu-submenu-title{
+	font-size: 16px;
+}
+.leftMenu .ant-menu-item{
+	font-size: 14px;
+	padding-left: 0;
+}
+.rightContent{
+	margin-left: 200px;
+    padding: 20px;
+    background: #e4f3ff;
+    color: #666;
+}
+.rightContent a{
+	color:#333;
+	text-decoration: underline;
+}
+.rightContent .ant-form-inline .ant-form-item{
+	margin-bottom: 10px;
+}
+.rightContent .ant-form-item label{
+	font-size: 14px;
+}
+.rightContent .ant-table-thead th,
+.rightContent .ant-table-body td{
+	text-align: center;
+}
+.rightContent .ant-table-body td{
+	background: #fff;
+}
+.vertical-center-modal{
+	text-align: center;
+	white-space: nowrap;
+}
+.vertical-center-modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.vertical-center-modal .ant-modal-body{
+	text-align: center;
+	color: #108ee9;
+	font-size: 16px;
+}
